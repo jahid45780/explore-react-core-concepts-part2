@@ -4,6 +4,7 @@ import Counter from './Counter'
 import Team from './Team'
 import Users from './user'
 import Friends from './Friends'
+import Posts from './Posts'
 
 function App() {
   function handleClick(){
@@ -22,6 +23,7 @@ function App() {
     <>
      
       <h3>React Core Concept 2 </h3>
+      <Posts></Posts>
       <Friends></Friends>
       <Users></Users>
       <Team></Team>
